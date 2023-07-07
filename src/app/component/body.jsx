@@ -44,11 +44,11 @@ export default function Body() {
     </section>
     <article>
       <ul className='md:flex p-1 text-[#4977F6] md:justify-around grid justify-center'>
-        <a href='https://www.washingtonpost.com/'><li className='text-2xl'>The Washington Post</li></a>
-        <a href='https://techcrunch.com/'><li className='text-2xl'>TechCrunch</li></a>
-        <a href='https://www.bloomberg.com/africa'><li className='text-2xl'>Bloomberg</li></a>
-        <a href='https://gizmodo.com/'><li className='text-2xl'>GIZMODO</li></a>
-        <a href='https://www.forbes.com/?sh=16081e882254'><li className='text-2xl'>Forbes</li></a>
+        <a href='https://www.washingtonpost.com/'><li className={`text-2xl ${unifraktur.className}`}>The Washington Post</li></a>
+        <a href='https://techcrunch.com/'><li className={`text-2xl ${race.className}`}>TechCrunch</li></a>
+        <a href='https://www.bloomberg.com/africa'><li className={`text-2xl ${bel.className}`}>Bloomberg</li></a>
+        <a href='https://gizmodo.com/'><li className={`text-2xl ${lato.className}`}>GIZMODO</li></a>
+        <a href='https://www.forbes.com/?sh=16081e882254'><li className={`text-2xl ${caprasimo.className}`}>Forbes</li></a>
       </ul>
     </article>
   </div>
