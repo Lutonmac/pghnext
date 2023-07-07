@@ -39,7 +39,7 @@ export default function Book() {
                 </article>
             </section>
             <section className=' md:px-24'>
-                <article className='p-3'>
+                <article className='p-5'>
                     <label htmlFor="">Select dental service</label>
                     <br />
                   <select name="" id="" className='md:w-[41%] border-[1px] p-3 shadow-md shadow-gray-400'>
