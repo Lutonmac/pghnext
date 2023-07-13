@@ -42,7 +42,7 @@ export default function Navbar() {
             </ul>
         </div>
         <div onClick={handleNav}
-         className='sm:hidden '>
+         className='sm:hidden text-blue-600'>
         <RxHamburgerMenu size={30} />
             
         </div>

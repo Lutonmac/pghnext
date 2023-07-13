@@ -13,7 +13,6 @@ import design from '../../style.module.css'
 
 export default function Page({params}) {
     const remote = dentist(params)
-    console.log(remote)
     const [backGroundColor, setBackgroundColor] = useState()
     useEffect(function() {
        function getColor(){
