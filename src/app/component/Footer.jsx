@@ -29,7 +29,7 @@ export default function Footer() {
                     <h2 className='text-[20px] p-3'>RESOURCES</h2>
                     <p className='p-3'>Service Page</p>
                     <p className='p-3'>Blog Past</p>
-                    <p className='p-3'>404</p>
+                    
                     <p className='p-3'>Password</p>
                     </article>
                 

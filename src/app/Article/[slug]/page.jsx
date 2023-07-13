@@ -13,6 +13,7 @@ import design from '../../style.module.css'
 
 export default function Page({params}) {
     const remote = dentist(params)
+    console.log(remote)
     const [backGroundColor, setBackgroundColor] = useState()
     useEffect(function() {
        function getColor(){
@@ -31,10 +32,10 @@ export default function Page({params}) {
     <main className={`h-screen ${design.flip}  `} >
     <div className='flex justify-center text-white p md:h-screen items-center'>
         
-        <section className={`p-10 border-[1px] border-white shadow-lg shadow-gray-500 mt-10 rounded-md w-screen md:w-[30%] `} style={{background: backGroundColor}} >
+        <section className={`p-14 border-[1px] border-white shadow-lg shadow-gray-500 mt-10 rounded-md w-screen md:w-[30%] `} style={{background: backGroundColor}} >
             <span className='flex justify-center '>
             <Image src={remote.profileImage} width={500} height={400} className='rounded-md'/></span>
-            <div className='py-5'>
+            <div className='py-8'>
       <p className='py-1'>Name: {remote.link.name}</p>
       <p className='py-1'>Profession: {remote.link.title} </p>
       <p className='py-1'>Specialization: {remote.link.specialization}</p>
