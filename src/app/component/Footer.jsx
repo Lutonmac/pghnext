@@ -3,7 +3,7 @@ import Link from "next/link";
 import { GiRodOfAsclepius } from "react-icons/gi";
 
 
-const cin = Cinzel({subsets: ['latin'], weight: ['700']})
+
 
 export default function Footer() {
     const time = new Date();
