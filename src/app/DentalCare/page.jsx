@@ -3,10 +3,10 @@ import React from 'react'
 import { FaTooth } from 'react-icons/fa'
 import { LiaToothSolid } from "react-icons/lia";
 import { TbDentalBroken, TbDentalOff } from "react-icons/tb";
-import {Merriweather} from '@next/font/google'
+
 import  styles  from "../style.module.css";
 
-const merri = Merriweather({subsets: ['latin'], weight: ['700']})
+
 
 const dentalData = [
     {
@@ -46,7 +46,7 @@ export default function page() {
     const dentalCares = dentalData.map((dentalCare)=> (
         <div className={`p-5 ${dentalCare.border} shadow-md hover:shadow-lg hover:shadow-gray-600 shadow-gray-400  rounded-md bg-white`} key={dentalCare.id}>
             <p className=' flex justify-center p-3 text-blue-500 '>{dentalCare.icon }</p>
-            <p className={`flex justify-center uppercase font-bold ${merri.className}`}>{dentalCare.topic}</p>
+            <p className={`flex justify-center uppercase font-bold `}>{dentalCare.topic}</p>
             <p className='flex justify-center'>{dentalCare.info}</p>
             
         </div>

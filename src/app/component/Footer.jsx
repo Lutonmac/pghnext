@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import { GiRodOfAsclepius } from "react-icons/gi";
-import {Cinzel} from '@next/font/google'
+
 
 const cin = Cinzel({subsets: ['latin'], weight: ['700']})
 
@@ -65,7 +65,7 @@ export default function Footer() {
             </div>
             <div className="bg-slate-900">
                 <section className=" text-white flex justify-center text-[24px] p-5">
-                   <p className={`${cin.className}`}>Copy right ©{year} Lutonmacus<span className="text-[12px]"><sup>Ⓡ</sup> </span> {day} </p>
+                   <p className={`uppercase`}>Copy right ©{year} Lutonmacus<span className="text-[12px]"><sup>Ⓡ</sup> </span> {day} </p>
                 </section>
             </div>
         </div>
