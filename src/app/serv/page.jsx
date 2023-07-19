@@ -123,14 +123,14 @@ export let Shallipopi = dataArray.slice()
 
 
   export default function Page() {
-    const [hoveredId, setHoveredId] = useState(null);
+    const [hoveredId, setHoveredId] = useState();
   
     const handleMouseEnter = (id) => {
       setHoveredId(id);
     };
   
     const handleMouseLeave = () => {
-      setHoveredId(null);
+      setHoveredId();
     };
  
     const Redo = dataArray.map((redos) => (

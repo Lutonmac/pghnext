@@ -13,7 +13,7 @@ export default function page({params}) {
     <div key={melvin.id}>
      <p>{melvin.topic}</p>
     {melvin.link.map((links)=> (
-      <div className='w-[30%]'>
+      <div className='w-[30%]' key={links.id}>
       
        <p>{links.details}</p> 
       </div>
