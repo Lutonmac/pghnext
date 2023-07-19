@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className='hidden sm:flex '>
             <ul className=' hidden uppercase sm:flex'>
                 <Link href={'/'}><li className='ml-10  hover:border-b text-xl'>Home</li></Link>
-                <Link href={'/services'}><li className='ml-10 hover:border-b text-xl'>Service</li></Link>
+                <Link href={'/serv'}><li className='ml-10 hover:border-b text-xl'>Service</li></Link>
                 <Link href={'/company'}><li className='ml-10  hover:border-b text-xl'>Company</li></Link>
             </ul>
         
@@ -61,7 +61,7 @@ export default function Navbar() {
                     <li onClick={()=> setMenuOpen(false)}
                     className='py-4 cursor-pointer'>Home</li>
                     </Link>
-                <Link href={'/services'}>
+                <Link href={'/serv'}>
                     <li onClick={()=> setMenuOpen(false)}
                     className='py-4 cursor-pointer'>Service</li>
                     </Link>

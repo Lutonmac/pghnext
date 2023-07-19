@@ -65,7 +65,7 @@ export default function Footer() {
             </div>
             <div className="bg-slate-900">
                 <section className=" text-white flex justify-center text-[24px] p-5">
-                   <p className={`uppercase`}>Copy right ©{year} Lutonmacus<span className="text-[12px]"><sup>Ⓡ</sup> </span> {day} </p>
+                   <p className={`uppercase`}>Copy right ©{year} {day}, Lutonmacus.  </p>
                 </section>
             </div>
         </div>
